@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Pseudoclass Example</title>
+</head>
+<body>
+    <h1>I am an h1.</h1>
+    <h1>Another h1.</h1>
+    <p>I am a paragraph.</p>
+    <button>Click Me!</button>
+    <input type="text"/>
+    <style>
+        h1:hover {
+            background: pink;
+        }
+        button:hover {
+            background: pink;
+        }
+        button:hover:focus {
+            background: orange;
+        }
+        input {
+            margin-top: 1em;
+            display: block;
+        }
+        input:focus {
+            background: pink;
+        }
+        button:hover {
+            background: yellow
+        }
+        button:focus {
+            border-radius: 10px;
+            outline: none;
+        }
+        button:active {
+            background: green;
+            outline: none;
+        }
+        button:active:hover {
+            background: yellow;
+        }
+    </style>
+</body>
+</html>
